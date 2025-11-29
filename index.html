@@ -1,0 +1,170 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Human Rights Website</title>
+
+  <style>
+    :root {
+      --bg: #121212;
+      --card: #1f1f1f;
+      --accent: #4dabf5;
+      --muted: #a0a0a0;
+      --shadow: 0 6px 18px rgba(0,0,0,0.5);
+      --radius: 12px;
+      --pad: 20px;
+      --text: #e0e0e0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body { background: var(--bg); color: var(--text); line-height: 1.6; scroll-behavior: smooth; }
+    .container { max-width: 1000px; margin: 50px auto; padding: var(--pad); }
+
+    /* HEADER */
+    header { text-align: center; margin-bottom: 40px; }
+    header .logo { font-size: 40px; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
+    header .title { font-size: 28px; font-weight: 700; margin-bottom: 5px; }
+    header .subtitle { font-size: 16px; color: var(--muted); margin-bottom: 20px; }
+
+    nav { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-bottom: 20px; }
+    nav a { color: var(--bg); text-decoration: none; font-weight: 600; padding: 10px 18px; border-radius: 8px; background: var(--accent); transition: all 0.3s; }
+    nav a:hover { transform: scale(1.05); }
+
+    /* SECTION */
+    section { background: var(--card); padding: 40px 30px; border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 40px; }
+    section h1 { font-size: 26px; margin-bottom: 20px; text-align: center; color: var(--accent); }
+    section h2 { font-size: 20px; margin-bottom: 12px; color: var(--accent); }
+    section p { font-size: 16px; color: var(--text); margin-bottom: 12px; }
+
+    /* CARD inside section */
+    .card-inner { background: #2a2a2a; padding: 20px; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.5); margin-bottom: 20px; transition: transform 0.3s; }
+    .card-inner { transform: translateY(-5px); }
+
+    /* IMAGES */
+    .img-right, .img-left {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      height:fit-content;
+      border-radius: 10px;
+      margin: 20px auto;
+      float: none;
+    }
+    .img1-left {
+      display: block;
+      width: 100%;
+      max-width: 130px;
+      height:auto;
+      border-radius: 10px;
+      margin: 20px auto;
+      float: none;
+      top:-20px;
+      position:relative;
+    }
+    .img1-right{
+      display: block;
+      width: 100%;
+      max-width: 100px;
+      height:auto;
+      border-radius: 10px;
+      margin: 20px auto;
+      float: none;
+      top:-80px;
+      position:relative;
+    }
+
+    @media (min-width: 768px) {
+      .img-right { float: right; margin-left: 20px; margin-bottom: 20px; }
+      .img-left { float: left; margin-right: 20px; margin-bottom: 20px; }
+      .img1-left { float: left; margin-right: 20px; margin-bottom: 20px; }
+      .img1-right { float: right; margin-right: 20px; margin-bottom: 20px; }
+    }
+
+    /* FOOTER */
+    footer { text-align: center; color: var(--muted); padding: 20px; font-size: 14px; }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <header>
+      <div><img src="HumanRightsLogo.svg"></div>
+      <div class="title">Human Rights</div>
+      <div class="subtitle">Full Overview</div>
+      <nav>
+        <a href="#definitions">Definitions</a>
+        <a href="#cyrus">Cyrus Cylinder & Magna Carta</a>
+        <a href="#petition">Petition of Right</a>
+        <a href="#laws">Union Laws</a>
+      </nav>
+    </header>
+
+```
+<!-- SECTION 1 -->
+<section id="definitions">
+  <h1>Definitions of Human Rights</h1>
+  <h2>What Are Human Rights?</h2>
+  <p>Human rights are basic rights and freedoms that belong to every person on Earth, regardless of race, gender, nationality, religion, or any other status. These rights aim to protect dignity, equality, and freedom.</p>
+
+  <h2>Types of Rights</h2>
+  <p>Human rights include civil and political rights (e.g., freedom of speech, right to life), economic and social rights (e.g., education, healthcare), and collective rights (e.g., minority rights).</p>
+
+  <h2>Principles</h2>
+  <p>Core principles include universality, equality, non-discrimination, legal protection, and human dignity.</p>
+</section>
+
+<!-- SECTION 2 -->
+<section id="cyrus">
+  <h1>The Cyrus Cylinder & Magna Carta</h1>
+  <h2>The Cyrus Cylinder</h2>
+  <img src="Screenshot 2025-11-20 024221.png" alt="Cyrus Cylinder" class="img-right">
+  <p>The Cyrus Cylinder is an ancient Persian artifact linked to King Cyrus the Great. It symbolizes early ideas of freedom, religious tolerance, and protection of displaced groups.</p>
+
+  <h2>Magna Carta</h2>
+  <img src="Screenshot 2025-11-20 024124.png" alt="Magna Carta" class="img1-left">
+  <p>Magna Carta (1215) limited the king’s power and protected rights such as fair trials and freedom from unlawful imprisonment. It heavily influenced modern constitutional law.</p>
+
+  <h2>Importance</h2>
+  <img src="Screenshot 2025-11-20 024235.png" alt="Importance" class="img1-right">
+  <p>Both documents show early movements toward restricting power and protecting individuals.</p>
+</section>
+
+<!-- SECTION 3 -->
+<section id="petition">
+  <h1>Petition of Right</h1>
+  <h2>What Is It?</h2>
+  <p>The Petition of Right (1628) was a key English document demanding legal protections from the king, including protection against arbitrary imprisonment and illegal taxation.</p>
+  <h2>Role in History</h2>
+  <p>It strengthened the idea that governments must obey the law, influencing future democratic systems.</p>
+  <h2>Lessons</h2>
+  <p>The document highlights the importance of legal accountability and institutional checks on power.</p>
+</section>
+
+<!-- SECTION 4 -->
+<section id="laws">
+  <h1>Laws Issued by Unions & Organizations</h1>
+  <h2>United Nations (UN)</h2>
+  <p>The UN established global human rights frameworks such as the Universal Declaration of Human Rights and international treaties on children's rights, anti-discrimination, and anti-torture.</p>
+  <h2>European Union & Regional Bodies</h2>
+  <p>The EU and European Court of Human Rights enforce human rights laws within member states, allowing individuals to file complaints.</p>
+  <h2>International Labour Organization (ILO)</h2>
+  <p>The ILO sets standards for labor rights, including safe working conditions, fair wages, and the ban on forced labor.</p>
+  <h2>Implementation</h2>
+  <p>Some laws are binding treaties, while others serve as guidelines. Their effectiveness depends on political commitment and monitoring.</p>
+</section>
+
+<footer>
+  © Human Rights Educational Page — All sections combined in one file.
+  <p>Designed by Eng. Mohamed Khaled, Eng. Adam Ali, Eng. Youssef Sameh, Eng. Karim Elsayed, and Eng. Mostafa Shaaban</p>
+</footer>
+```
+
+  </div>
+</body>
+</html>
