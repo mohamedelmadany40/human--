@@ -82,6 +82,19 @@
       .img1-left { float: left; margin-right: 20px; margin-bottom: 20px; }
       .img1-right { float: right; margin-right: 20px; margin-bottom: 20px; }
     }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
 
     /* FOOTER */
     footer { text-align: center; color: var(--muted); padding: 20px; font-size: 14px; }
@@ -158,7 +171,20 @@
   <h2>Implementation</h2>
   <p>Some laws are binding treaties, while others serve as guidelines. Their effectiveness depends on political commitment and monitoring.</p>
 </section>
+<section id="wars">
+  <h1>the wars</h1>
+  <h2>The Palestinian-Israeli conflict</h2>
+  <P>Human rights organizations point to reports of unlawful killings, arbitrary arrests, restrictions on freedom of movement and expression, and the blockade of Gaza, which has been described as collective punishment.</P>
+  <h2>World War II</h2>
+  <p>It witnessed major war crimes such as those committed by the Nazi Chechen regime, which have been described as some of the most egregious human rights violations in modern history.</p>
+  <h2>The Syrian Civil War</h2>
+  <p>The Syrian Civil War is a complex conflict that began in 2011 with protests against the rule of President Bashar al-Assad. It evolved into a multi-sided war between the Syrian government and its allies (such as Russia, Iran, and Hezbollah) and various opposition factions (such as the Free Syrian Army, the Syrian Democratic Forces, and jihadist groups). The conflict has seen extensive international intervention, and the war has caused widespread damage, destruction, and the displacement of millions of people. Sectarian divisions have played a significant role in the conflict.</p>
+  <div class="gallery">
+  <img src="WhatsApp Image 2025-11-30 at 19.23.25_b4a68e79.jpg" alt="">
+  <img src="WhatsApp Image 2025-11-30 at 19.23.50_f2a0d6c2.jpg" alt="">
+</div>
 
+</section>
 <footer>
   © Human Rights Educational Page — All sections combined in one file.
   <p>Designed by Eng. Mohamed Khaled, Eng. Adam Ali, Eng. Youssef Sameh, Eng. Karim Elsayed, and Eng. Mostafa Shaaban</p>
